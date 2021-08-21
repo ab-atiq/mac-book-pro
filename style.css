@@ -1,0 +1,10 @@
+.hr{
+    background-color:  gray;
+    height: 3px;
+    display: block;
+}
+.hr-bold{
+    height: 3px;
+    background: #000;
+    display: block;
+}
