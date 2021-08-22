@@ -38,23 +38,23 @@
                 <!-- storage button use here -->
                 <div class="storage my-4">
                     <h3 class="font-bold">Storage</h3>
-                    <button class="border-2 border-black-500 p-2 rounded focus:border-black">
+                    <button id="256gb-storage" class="border-2 border-black-500 p-2 rounded focus:border-black">
                         <p>256GB SSD storage</p>
                     </button>
-                    <button class="border-2 border-black-500 p-2 rounded focus:border-black">
+                    <button id="512gb-storage" class="border-2 border-black-500 p-2 rounded focus:border-black">
                         <p>512GB SSD storage</p>
                     </button>
-                    <button class="border-2 border-black-500 p-2 rounded focus:border-black">
+                    <button id="1tb-storage" class="border-2 border-black-500 p-2 rounded focus:border-black">
                         <p>1TB SSD storage</p>
                     </button>
                 </div>
                 <!-- delivery button use here -->
                 <div class="delivery my-4">
                     <h3 class="font-bold">Choose your delivery option</h3>
-                    <button class="border-2 border-black-500 p-2 rounded focus:border-black">
+                    <button id="delivery-free" class="border-2 border-black-500 p-2 rounded focus:border-black">
                         <p>Friday,Aug 25 Free Priime delivery</p>
                     </button>
-                    <button class="border-2 border-black-500 p-2 rounded focus:border-black">
+                    <button id="delivery-charge" class="border-2 border-black-500 p-2 rounded focus:border-black">
                         <p>Friday, Aug 21 Delivery charge $20</p>
                     </button>
                 </div>
@@ -65,11 +65,11 @@
                             Best Price
                         </div>
                         <div class="flex-1">
-                            $<span>1299</span>
+                            $<span id="best-price">1299</span>
                         </div>
                     </div>
                     <hr class="hr w-4/6">
-                    <div class="best-price flex">
+                    <div class="flex">
                         <div class="flex-1">
                             Extra Memory Cost
                         </div>
@@ -83,7 +83,7 @@
                             Extra Storage Cost
                         </div>
                         <div class="flex-1">
-                            $<span>0</span>
+                            $<span id="extra-storage-cost">0</span>
                         </div>
                     </div>
                     <hr class="hr w-4/6">
@@ -92,7 +92,7 @@
                             Delivery Charge
                         </div>
                         <div class="flex-1">
-                            $<span>0</span>
+                            $<span id="extra-delivery-cost">0</span>
                         </div>
                     </div>
                     <hr class="hr hr-bold w-4/6">
@@ -101,7 +101,7 @@
                             Total Price
                         </div>
                         <div class="flex-1">
-                            $<span>1299</span>
+                            $<span id="total-price">1299</span>
                         </div>
                     </div>
                     <hr class="hr w-4/6">
@@ -109,9 +109,8 @@
                 <!-- pomo code use here -->
                 <div class="pomo-code my-8 font-semibold">
                     <h2>Add Pomo Code</h2>
-                    <input type="text" name="" id="" class="border-2 border-black-500 p-2 my-2">
-                    <button
-                        class="bg-red-500 px-6 py-2 rounded font-semibold hover:bg-red-600 border-2 focus:border-black">Apply</button>
+                    <input type="text" name="" id="promo-input" class="border-2 border-black-500 p-2 my-2">
+                    <button onclick="myFunction()" class="bg-red-500 px-6 py-2 rounded font-semibold hover:bg-red-600 border-2 focus:border-black">Apply</button>
                 </div>
             </div>
         </div>
@@ -120,7 +119,7 @@
     <footer class="mb-8">
         <hr class="hr  mx-auto mb-4">
         <div class="total text-center">
-            <h1 class="text-5xl">Total: $<span>1299</span></h1>
+            <h1 class="text-5xl">Total: $<span id="total">1299</span></h1>
         </div>
     </footer>
 
