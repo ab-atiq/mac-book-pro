@@ -1,6 +1,6 @@
-# mac-book-pro
+# Mac Book Pro
 ```
-1. You can select Memory, Storage, and delivery option.
-2. Basis on your selection money will update.
-3. If you use 'stevekaku' promo code then 20% money reduce from main money.
+1. You can select Memory, Storage, and delivery options.
+2. The basis of your selection money will be updated.
+3. If you use 'stevekaku' promo code then 20% money is reduced from the main money.
 ```
